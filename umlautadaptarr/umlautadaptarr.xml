@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>umlautadaptarr</Name>
+  <Repository>pcjones/umlautadaptarr</Repository>
+  <Registry>https://hub.docker.com/r/pcjones/umlautadaptarr/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/PCJones/UmlautAdaptarr/issues</Support>
+  <Project>https://github.com/PCJones/UmlautAdaptarr/</Project>
+  <Overview> A tool to work around Sonarr, Radarr, Lidarr and Readarrs problems with foreign languages</Overview>
+  <Category>Downloaders:</Category>
+  <Icon/>
+  <Config Name="Host Port for 5005" Target="5005" Default="5005" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
+  <Config Name="Enable Sonarr" Target="SONARR_ENABLED" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Sonarr Host" Target="SONARR_HOST" Default="http://localhost:8989" Mode="" Description="URL of the Sonarr instance" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Sonarr API Key" Target="SONARR_API_KEY" Default="" Mode="" Description="The API Key of Sonarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Radarr" Target="RADARR_ENABLED" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Host" Target="RADARR_HOST" Default="http://localhost:7878" Mode="" Description="URL of the Radarr instance" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Radarr API Key" Target="RADARR_API_KEY" Default="" Mode="" Description="The API Key of Radarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Readarr" Target="READARR_ENABLED" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Readarr Host" Target="READARR_HOST" Default="http://localhost:8787" Mode="" Description="URL of the Readarr instance" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Readarr API Key" Target="READARR_API_KEY" Default="" Mode="" Description="The API Key of Readarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Lidarr" Target="LIDARR_ENABLED" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Host" Target="LIDARR_HOST" Default="http://localhost:8686" Mode="" Description="URL of the Lidarr instance" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LIDARR_API_KEY" Default="" Mode="" Description="The API Key of Lidarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
