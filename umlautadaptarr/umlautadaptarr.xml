@@ -9,7 +9,7 @@
   <Project>https://github.com/PCJones/UmlautAdaptarr/</Project>
   <Overview> A tool to work around Sonarr, Radarr, Lidarr and Readarrs problems with foreign languages</Overview>
   <Category>Downloaders:</Category>
-  <Icon/>
+  <Icon>https://i.imgur.com/Chcmixa.png</Icon>
   <Config Name="Host Port for 5005" Target="5005" Default="5005" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Enable Sonarr" Target="SONARR_ENABLED" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Sonarr Host" Target="SONARR_HOST" Default="http://localhost:8989" Mode="" Description="URL of the Sonarr instance" Type="Variable" Display="always" Required="false" Mask="false"/>
