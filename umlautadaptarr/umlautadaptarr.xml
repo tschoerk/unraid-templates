@@ -10,7 +10,7 @@
   <ReadMe>https://github.com/PCJones/UmlautAdaptarr</ReadMe>
   <Overview> A tool to work around Sonarr, Radarr, Lidarr and Readarr's problems with foreign languages and symbols, like the German umlauts. Don't forget to update the URLs of your indexers in Prowlarr or directly in the used arr apps. Details are found in the documentation.</Overview>
   <Category>Downloaders: MediaApp:Other</Category>
-  <Icon>https://raw.githubusercontent.com/tschoerk/unraid-templates/main/umlautadaptarr/umlaut.png</Icon>
+  <Icon>https://raw.githubusercontent.com/tschoerk/unraid-templates/main/umlautadaptarr/umlaute.png</Icon>
   <DonateText>The dev PCJones is always happy about a donation :D</DonateText>
   <DonateLink>https://paypal.me/pcjones1</DonateLink>
   <Config Name="Host Port for 5005" Target="5005" Default="5005" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
