@@ -14,16 +14,21 @@
   <DonateText>The dev PCJones is always happy about a donation :D</DonateText>
   <DonateLink>https://paypal.me/pcjones1</DonateLink>
   <Config Name="Host Port for 5005" Target="5005" Default="5005" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
-  <Config Name="Enable Sonarr" Target="SONARR_ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Sonarr Host" Target="SONARR_HOST" Default="" Mode="" Description="URL of the Sonarr instance (e.g. http://192.168.0.100:8989)" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Sonarr API Key" Target="SONARR_API_KEY" Default="" Mode="" Description="The API Key of Sonarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Enable Radarr" Target="RADARR_ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Radarr Host" Target="RADARR_HOST" Default="" Mode="" Description="URL of the Radarr instance (e.g. http://192.168.0.100:7878)" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Radarr API Key" Target="RADARR_API_KEY" Default="" Mode="" Description="The API Key of Radarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Enable Readarr" Target="READARR_ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Readarr Host" Target="READARR_HOST" Default="" Mode="" Description="URL of the Readarr instance (e.g. http://192.168.0.100:8787)" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Readarr API Key" Target="READARR_API_KEY" Default="" Mode="" Description="The API Key of Readarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Enable Lidarr" Target="LIDARR_ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Lidarr Host" Target="LIDARR_HOST" Default="" Mode="" Description="URL of the Lidarr instance (e.g. http://192.168.0.100:8686)" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Lidarr API Key" Target="LIDARR_API_KEY" Default="" Mode="" Description="The API Key of Lidarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Sonarr" Target="SONARR__ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Sonarr Host" Target="SONARR__HOST" Default="" Mode="" Description="URL of the Sonarr instance (e.g. http://192.168.0.100:8989)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Sonarr API Key" Target="SONARR__APIKEY" Default="" Mode="" Description="The API Key of Sonarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Radarr" Target="RADARR__ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Radarr Host" Target="RADARR__HOST" Default="" Mode="" Description="URL of the Radarr instance (e.g. http://192.168.0.100:7878)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Radarr API Key" Target="RADARR__APIKEY" Default="" Mode="" Description="The API Key of Radarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Readarr" Target="READARR__ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Readarr Host" Target="READARR__HOST" Default="" Mode="" Description="URL of the Readarr instance (e.g. http://192.168.0.100:8787)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Readarr API Key" Target="READARR__APIKEY" Default="" Mode="" Description="The API Key of Readarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Lidarr" Target="LIDARR__ENABLED" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Lidarr Host" Target="LIDARR__HOST" Default="" Mode="" Description="URL of the Lidarr instance (e.g. http://192.168.0.100:8686)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Lidarr API Key" Target="LIDARR__APIKEY" Default="" Mode="" Description="The API Key of Lidarr found under Settings-General" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable Proxy" Target="Proxy__Enabled" Default="false|true" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Proxy Address" Target="Proxy__Address" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Proxy Username" Target="Proxy__Username" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Proxy Password" Target="Proxy__Password" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Proxy Bypass On Local" Target="Proxy__BypassOnLocal" Default="true|false" Mode="" Description="Set to false to not bypass local IP addresses" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
