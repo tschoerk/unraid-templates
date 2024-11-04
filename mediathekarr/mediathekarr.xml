@@ -17,6 +17,6 @@
   <Config Name="ASP.NET Core URLs" Target="ASPNETCORE_URLS" Default="http://+:5007" Mode="" Description="Port can be changed if needed" Type="Variable" Display="advanced" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="1000" Mode="" Description="UID for permissions" Type="Variable" Display="advanced" Required="true" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="1000" Mode="" Description="GID for permissions" Type="Variable" Display="advanced" Required="true" Mask="false"/>
-  <Config Name="Container Path for completed downloads" Target="DOWNLOAD_FOLDER_PATH_MAPPING" Default="" Mode="" Description="Container path for completed downloads set in the download client (e.g. /media/downloads/complete)" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Container Path for completed downloads" Target="DOWNLOAD_FOLDER_PATH_MAPPING" Default="" Mode="" Description="Container path for completed downloads set in the download client (e.g. /media/downloads/complete/)" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /app/downloads" Target="/app/downloads" Default="" Mode="rw" Description="Host path for completed downloads (e.g. /mnt/user/data/downloads/complete/)" Type="Path" Display="always" Required="true" Mask="false"/>
  </Container>
