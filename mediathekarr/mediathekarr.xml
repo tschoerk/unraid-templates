@@ -13,6 +13,7 @@
   <Icon>https://raw.githubusercontent.com/tschoerk/unraid-templates/main/mediathekarr/mediathekarr.png</Icon>
   <DonateText>The dev PCJones is always happy about a donation :D</DonateText>
   <DonateLink>https://paypal.me/pcjones1</DonateLink>
+  <Config Name="ASP.NET Core URLs" Target="ASPNETCORE_URLS" Default="http://+:5007" Mode="" Description="Port can be changed if needed" Type="Variable" Display="advanced" Required="true" Mask="false"/>
   <Config Name="Host Port for 5007" Target="5007" Default="5007" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Container Path for completed downloads" Target="DOWNLOAD_FOLDER_PATH_MAPPING" Default="" Mode="" Description="Container path for completed downloads set in the download client (e.g. /data/usenet/complete/)" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /app/downloads" Target="/app/downloads" Default="" Mode="rw" Description="Host path for completed downloads (e.g. /mnt/user/data/usenet/complete/)" Type="Path" Display="always" Required="true" Mask="false"/>
